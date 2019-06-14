@@ -1,25 +1,427 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-<head>
-<title>Welcome to nginx!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
 
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="keywords" content="Rossdamen模板首页" />
+		<meta name="description" content="Rossdamen模板首页" />
+		<meta name="author" content="Rossdamen模板首页  http://demo.rossdamen.com">
+		<title>网站制作模板首页</title>
+		<!--<link rel="Bookmark" href="/themes/index/images/favicon.ico" />
+		<link rel="shortcut icon" href="/themes/index/images/favicon.ico" />-->
+		<link type="text/css" rel="stylesheet" href="css/gobal.css" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/animate.min.css" />
 
-<p><em>Thank you for using nginx.</em></p>
-</body>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+
+		<!--IE9下 媒体查询-->
+		<!--[if lt IE 9]>
+    <script type="text/javascript" src="js/respond.min.js" ></script>
+    <![endif]-->
+
+		<!--IE9下 HTML5标签支持-->
+		<!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5shiv.min.js" ></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<!--warpper-->
+		<div id="warpper">
+			<!--warpper star-->
+			<div id="head">
+				<header>
+					<div class="header">
+						<div class="logo">
+							<a href="index.html">Rossdamen</a>
+						</div>
+						<div class="nav">
+							<ul>
+								<li>
+									<a href="index.html">首页</a>
+								</li>
+								<!--<li>
+									<a href="index-3.htm" >服务</a>
+								</li>
+								<li>
+									<a href="index-2.htm" >作品</a>
+								</li>
+								<li>
+									<a href="index-5.htm" >资讯</a>
+								</li>
+								<li>
+									<a href="index-4.htm" >我们</a>
+								</li>
+								<li>
+									<a href="index-1.htm" >联系</a>
+								</li>-->
+							</ul>
+							<span title="留言" onclick="location.href='index-1.htm'/*tpa=http://www.100vic.com/contact/*/" class="messsn">留言</span>
+						</div>
+						<div class="myPhone">服务热线:<b>tel-xxxxxxxx</b></div>
+
+						<div class="btn-m-list">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</header>
+
+				<!--Mobile nav-->
+				<div class="neirong neirong-hide">
+					<div class="neirong-bd">
+						<a href="index.html" class="neirong-on">首页</a>
+						<!--<a href="index-3.htm" >服务<i></i></a>
+						<a href="index-2.htm" >作品<i></i></a>
+						<a href="index-5.htm" >资讯<i></i></a>
+						<a href="index-4.htm" >我们<i></i></a>
+						<a href="index-1.htm" >联系<i></i></a>-->
+					</div>
+					<div class="neirong-close"></div>
+				</div>
+				<!-- Mobile nav -->
+			</div>
+			<script>
+				$(function() {
+					$(".header .nav ul li").eq(0).addClass('on');
+				})
+			</script>
+
+			<section>
+				<div class="contain">
+					<div class="bannerwarp">
+						<div class="scrollBar">
+							<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+							<div class="inbanner">
+								<ul class="visual_slide">
+									<li>
+										<a class="bannerheight web-banner" target="_blank" href="#"><img src="images/banner1.jpg"></a>
+										<!--<a class="bannerheight mob-banner" target="_blank" href="http://www.100vic.com/zuopin/" style="background-image:url(uploads/banner_source/2018020116153936.jpg);"></a>-->
+
+									</li>
+									<li>
+										<a class="bannerheight web-banner" target="_blank" href="#"><img src="images/banner2.jpg"></a>
+
+									</li>
+								</ul>
+
+							</div>
+							<div class="index-waper-box">
+								<div class="index-back-box digital">
+									<div class="sub-arrows bx-controls-direction">
+										<i class="icom prev bx-prev"></i>
+										<i class="icom next bx-next"></i>
+									</div>
+									<div class="sub-mouse">
+										<span><img src="images/sub-mouse.png"  /></span>
+									</div>
+									<div class="IndexList active">
+										<ul>
+											<li>
+												<b><em class="nub timer" id="count-number" data-to="9" data-speed="1500">9</em></b>
+												<span class="pd"><span class="pd">年服务经验</span></span>
+											</li>
+											<li>
+												<b><em class="nub timer" id="count-number" data-to="3000" data-speed="1500">3000</em></b>
+												<span class="pd"><span class="pd">家客户选择</span></span>
+											</li>
+											<li>
+												<b><em class="nub timer" id="count-number" data-to="112" data-speed="1500">112</em></b>
+												<span class="pd"><span class="pd">项细节标准</span></span>
+											</li>
+										</ul>
+									</div>
+									<div class="sub-arrows bx-controls-direction">
+										<i class="icom prev bx-prev"></i>
+										<i class="icom next bx-next"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="section02">
+						<div class="layout">
+							<div class="index-title wow fadeInUp" data-wow-delay="0.0s">
+								<span>Rossdamen</span> 未来我们会更加努力，创造更多更好的作品。期待与您的合作！
+							</div>
+							<div class="index-case">
+
+								<!--<div class="owl-carousel" id="owl-demo1">
+                        <div class="item">-->
+								<ul class="clearfix">
+									<li class="wow fadeInUp" data-wow-delay="0.0s">
+										<div class="pic">
+											<img src="images/site-a.jpg" />
+											<!--<i class="bg"></i>
+                                     <div class="inxcasetxt"></div>-->
+											<div class="btn-group trans">
+												<a class="link_btn trans" href="a/index.html" target="_blank">浏览网站</a>
+											</div>
+										</div>
+										<a href="a/index.html">
+											<h2 class="h2">
+                                     <span>NAIAS</span>
+                                     <i></i>
+                                  </h2>
+										</a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.0.5s">
+										<div class="pic">
+											<img src="images/20171117154537d6.jpg" />
+											<!--<i class="bg"></i>
+                                     <div class="inxcasetxt"></div>-->
+											<div class="btn-group trans">
+												<a class="details_btn trans" href="156.html">作品详情</a>
+												<a class="link_btn trans" href="javascript:if(confirm('https://en.wtoip.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://en.wtoip.com/'" target="_blank">浏览网站</a>
+											</div>
+										</div>
+										<a href="156.html">
+											<h2 class="h2">
+                                     <span>汇桔网国际站</span>
+                                     <i></i>
+                                  </h2>
+										</a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.1s">
+										<div class="pic">
+											<img src="images/2017110814472453.jpg" />
+											<!--<i class="bg"></i>
+                                     <div class="inxcasetxt"></div>-->
+											<div class="btn-group trans">
+												<a class="details_btn trans" href="46.html">作品详情</a>
+												<a class="link_btn trans" href="javascript:if(confirm('http://www.orvibo.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.orvibo.com/'" target="_blank">浏览网站</a>
+											</div>
+										</div>
+										<a href="46.html">
+											<h2 class="h2">
+                                     <span>欧瑞博（ORVIBO）</span>
+                                     <i></i>
+                                  </h2>
+										</a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.1.5s">
+										<div class="pic">
+											<img src="images/20171108110839e3.jpg" />
+											<!--<i class="bg"></i>
+                                     <div class="inxcasetxt"></div>-->
+											<div class="btn-group trans">
+												<a class="details_btn trans" href="41.html">作品详情</a>
+												<a class="link_btn trans" href="javascript:if(confirm('http://www.laneige.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.laneige.com/'" target="_blank">浏览网站</a>
+											</div>
+										</div>
+										<a href="41.html">
+											<h2 class="h2">
+                                     <span>兰芝化妆品</span>
+                                     <i></i>
+                                  </h2>
+										</a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.2s">
+										<div class="pic">
+											<img src="images/2018092817571436.jpg" />
+											<!--<i class="bg"></i>
+                                     <div class="inxcasetxt"></div>-->
+											<div class="btn-group trans">
+												<a class="details_btn trans" href="3003.html">作品详情</a>
+												<a class="link_btn trans" href="javascript:if(confirm('http://lingnan-group.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://lingnan-group.com/'" target="_blank">浏览网站</a>
+											</div>
+										</div>
+										<a href="3003.html">
+											<h2 class="h2">
+                                     <span>岭南地产--海外版</span>
+                                     <i></i>
+                                  </h2>
+										</a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.2.5s">
+										<div class="pic">
+											<img src="images/2017111417581649.jpg" />
+											<!--<i class="bg"></i>
+                                     <div class="inxcasetxt"></div>-->
+											<div class="btn-group trans">
+												<a class="details_btn trans" href="94.html">作品详情</a>
+												<a class="link_btn trans" href="javascript:if(confirm('http://www.shininghouse.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.shininghouse.cn/'" target="_blank">浏览网站</a>
+											</div>
+										</div>
+										<a href="94.html">
+											<h2 class="h2">
+                                     <span>钻石世家</span>
+                                     <i></i>
+                                  </h2>
+										</a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.3s">
+										<div class="pic">
+											<img src="images/2017110811301053.jpg" />
+											<!--<i class="bg"></i>
+                                     <div class="inxcasetxt"></div>-->
+											<div class="btn-group trans">
+												<a class="details_btn trans" href="42.html">作品详情</a>
+												<a class="link_btn trans" href="javascript:if(confirm('http://www.yuexiuproperty.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.yuexiuproperty.com/'" target="_blank">浏览网站</a>
+											</div>
+										</div>
+										<a href="42.html">
+											<h2 class="h2">
+                                     <span>越秀地产</span>
+                                     <i></i>
+                                  </h2>
+										</a>
+									</li>
+									<li class="wow fadeInUp" data-wow-delay="0.3.5s">
+										<div class="pic">
+											<img src="images/2017111518135643.jpg" />
+											<!--<i class="bg"></i>
+                                     <div class="inxcasetxt"></div>-->
+											<div class="btn-group trans">
+												<a class="details_btn trans" href="115.html">作品详情</a>
+												<a class="link_btn trans" href="javascript:if(confirm('http://hnhdyhtx.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ�����ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://hnhdyhtx.com/'" target="_blank">浏览网站</a>
+											</div>
+										</div>
+										<a href="115.html">
+											<h2 class="h2">
+                                     <span>恒大.御海天下</span>
+                                     <i></i>
+                                  </h2>
+										</a>
+									</li>
+
+								</ul>
+								<!--</div>
+                    </div>-->
+								<a class="indexmore" href="index-2.htm">MORE</a>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="gf-demand">
+						<div class="layout">
+							<h2 class="h2">I NEED TO BUILD WEBSITE</h2>
+							<h3 class="h3">我需要建站</h3>
+							<form action="http://demo.rossdamen.com/index.php?c=message" method="post" onsubmit="return jianzhan()">
+								<div class="write">
+									<input class="text1" type="text" id="name" name="name" placeholder="称呼姓名" value="">
+									<input class="text2" type="text" id="phone" name="phone" placeholder="联系电话" value="">
+									<input class="text3" type="text" id="content" name="content" placeholder="描述您的需求，如网站、微信、电商、APP等。" value="">
+									<input type="hidden" name="pid" value="1" />
+									<input class="submit" type="submit" value="获取方案及报价">
+								</div>
+							</form>
+							<i class="italic">*请认真填写需求信息，我们会在24小时内与您取得联系。</i>
+						</div>
+					</div>
+					<script>
+						function jianzhan() {
+							var name = $('#name').val();
+							var phone = $('#phone').val();
+							var content = $('#content').val();
+							var msg = '';
+							if(name == '') {
+								msg += '请输入您的称呼！\n';
+							}
+							if(phone == '') {
+								msg += '请输入您的联系电话！\n';
+							}
+							if(content == '') {
+								msg += '请描述您的需求！\n';
+							}
+							if(msg) {
+								alert(msg);
+								return false;
+							}
+							return true;
+						}
+					</script>
+				</div>
+			</section>
+			<div id="foot">
+				<footer>
+					<div class="footer">
+						<div class="layout">
+							<div class="foottou">
+								<div class="ftlogo"><img src="images/logo-f.png" /></div>
+								<div class="ftcont">
+									<h2>xxx-xxxxxxxx</h2>
+									<p>地址：xxxxxxxxxxxxxxxxxxx</p>
+								</div>
+								<div class="foot-ewm">
+									<ul class="clearfix">
+										<li>
+											<img src="images/boss1.png" />
+											<p>扫一扫，微信咨询</p>
+										</li>
+
+									</ul>
+								</div>
+								<div class="ftewm">
+									<p>PYRIGHT 2019-2020 xxxxxxxxxxxxxxxxx</p>
+									<p>粤ICP备xxxxxxxxxxxxx POWERE BY ROSSDAMEN.COM</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
+			<!--warpper end-->
+		</div>
+		<!--warpper-->
+
+		<script type="text/javascript" src="js/number.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				$("#owl-demo1").owlCarousel({
+					items: 1,
+					lazyLoad: true,
+					navigation: true, //打开上一个，下一个按钮
+					pagination: false, //打开页码
+					autoPlay: true
+				});
+
+				$("#owl-demo2").owlCarousel({
+					items: 4,
+					lazyLoad: true,
+					navigation: true, //打开上一个，下一个按钮
+					pagination: false, //打开页码
+					autoPlay: true
+				});
+
+			});
+		</script>
+		<script type="text/javascript">
+			$('.visual_slide').bxSlider({
+				mode: "horizontal",
+				auto: true,
+				nextText: '<span class="bannext"></span>',
+				prevText: '<span class="banprev"></span>',
+				//displaySlideQty:1,//显示li的个数  
+				//moveSlideQty: 1,//移动li的个数    
+				//captions: true,//自动控制 
+				//controls: false,//隐藏左右按钮  
+				//speed: 1000
+			});
+		</script>
+		<script type="text/javascript">
+			//滚动到一定位置添加CLASS
+			$(window).scroll(function() {
+				var h = $(document).scrollTop();
+				var j = window.screen.height;
+				var o = $(".contain").offset().top;
+				if(h > o + 200) {
+					$('.digital').addClass('active');
+				} else {
+					$('.digital').removeClass('active');
+				}
+			});
+		</script>
+	</body>
+
 </html>
