@@ -1,0 +1,9 @@
+/*! =================================================
+	* Theme Name: Layout - consul
+	* Description: CSS desenvolvido para consul
+	* Author: Jussi Platform Team
+	* Empresa: Jüssi
+	* Author URI: http://www.jussi.com.br/
+	* Version: v6.21.4
+	=================================================
+*//*!*/.inst-sidebar{margin:30px 0}.inst-sidebar .lat-menu-title{font-size:1.5em;display:block;margin-bottom:10px}.inst-sidebar .navigation li a{transition:all .25s ease-out;-o-transition:all .25s ease-out;-ms-transition:all .25s ease-out;-moz-transition:all .25s ease-out;-webkit-transition:all .25s ease-out;display:block;padding:5px 0;text-decoration:none}.inst-sidebar .navigation li a:hover{color:#f47921;text-indent:5px}.itens li{font-size:12px;font-size:.75rem;background-position:0;background-repeat:no-repeat;display:block;margin:30px 0;padding:13px 0 12px 60px;position:relative}.itens li:before{border-top:1px solid #e4e4e4;content:" ";display:block;position:absolute;right:0;top:-15px;width:100%}.itens .item-01{background-image:url(icozero.png)/*tpa=https://consul.vteximg.com.br/arquivos/icozero.png*/}.itens .item-02{background-image:url(icoum.png)/*tpa=https://consul.vteximg.com.br/arquivos/icoum.png*/}.itens .item-03{background-image:url(icodois.png)/*tpa=https://consul.vteximg.com.br/arquivos/icodois.png*/}.itens .item-04,.itens .item-05{background-size:contain!important;min-height:136px;padding-top:43px}.itens .item-04{background-image:url(icoatalho4.png)/*tpa=https://consul.vteximg.com.br/arquivos/icoatalho4.png*/}.itens .item-05{background-image:url(icoatalho9.png)/*tpa=https://consul.vteximg.com.br/arquivos/icoatalho9.png*/}.itens .item-06{background:transparent url(/arquivos/icoenter.png) 37.5% bottom no-repeat;margin-bottom:0;min-height:170px;padding-left:0}.itens .item-06 h3{margin-top:0}

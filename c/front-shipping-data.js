@@ -1,0 +1,2 @@
+(function(){var t;t={paths:{shipping:"//io.vtex.com.br/front.shipping-data/2.22.13/","state-machine":"//io.vtex.com.br/front-libs/state-machine/2.3.2-vtex/",flight:"//io.vtex.com.br/front-libs/flight/1.1.4-vtex/"},pluginPath:"//io.vtex.com.br/front-libs/curl/0.8.10-vtex.2/plugin/"},vtex.curl.configuration?(_.extend(vtex.curl.configuration.paths,t.paths),_.extend(vtex.curl.configuration.pluginPath,t.pluginPath)):vtex.curl.configuration=t}).call(this);
+//# sourceMappingURL=front-shipping-data.js.map
