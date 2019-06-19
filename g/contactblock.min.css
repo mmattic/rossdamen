@@ -1,0 +1,13 @@
+.customer-contact{background:#fff;padding:65px 0 85px;margin-top:40px;margin-bottom:45px}
+.customer-contact h3{padding-top:15px}
+.customer-contact h5{margin-top:0}
+.customer-contact .fa{float:left;font-size:45px;color:#fff;background:#262626;height:75px;width:75px;padding:15px;border-radius:75px;margin:15px 15px 60px 0;display:inline-block;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transform:translate(0,0);line-height:1}
+.customer-contact .fa-phone{padding:18px}
+.customer-contact .fa-phone :before{content:"\f095"}
+.customer-contact .fa-envelope:before{content:"\f0e0"}
+.customer-contact .fa.fa-map-marker{padding:15px 24px}
+.customer-care .fa{text-decoration:none}
+@media(max-width:768px){.customer-contact{padding:0}
+}
+@media(min-width:1200px){.customer-contact h3{text-align:center}
+}

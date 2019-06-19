@@ -1,0 +1,4 @@
+#faq-lister .faq-question{cursor:pointer}
+#faq-lister .faq-answer{padding-left:20px}
+#faq-lister .collapse-toggle-main:before{content:"- ";display:inline-block;width:20px}
+#faq-lister .collapse-toggle-main.collapsed:before{content:"+ "}

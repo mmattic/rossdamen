@@ -1,0 +1,33 @@
+.border-free-modals-container .border-free-modal-flag-container{padding:10px 0}
+.border-free-modals-container .border-free-modal-flag-container{text-align:center}
+.flag-lg{display:inline-block}
+.flag-lg.country-us,.flag-lg.country-US{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-236px -136px;width:64px;height:42px}
+.flag-lg.country-ca,.flag-lg.country-CA{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-132px -248px;width:64px;height:42px}
+.flag-lg.country-mx,.flag-lg.country-MX{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-198px -292px;width:64px;height:42px}
+.flag-lg.country-de,.flag-lg.country-DE{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-132px -292px;width:64px;height:42px}
+.flag-lg.country-at,.flag-lg.country-AT{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:0 -204px;width:64px;height:42px}
+.flag-lg.country-gb,.flag-lg.country-GB,.flag-lg.country-uk,.flag-lg.country-UK{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-368px -220px;width:64px;height:42px}
+.flag-lg.country-fr,.flag-lg.country-FR{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-368px -132px;width:64px;height:42px}
+.flag-lg.country-jp,.flag-lg.country-JP{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-368px -176px;width:64px;height:42px}
+.flag-lg.country-au,.flag-lg.country-AU{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-132px -204px;width:64px;height:42px}
+.flag-lg.country-hk,.flag-lg.country-HK{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-66px -336px;width:64px;height:42px}
+.flag-lg.country-cl,.flag-lg.country-CL{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-302px 0;width:64px;height:42px}
+.flag-lg.country-co,.flag-lg.country-CO{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-302px -176px;width:64px;height:42px}
+.flag-lg.country-cr,.flag-lg.country-CR{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:0 -292px;width:64px;height:42px}
+.flag-lg.country-do,.flag-lg.country-DO{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-264px -292px;width:64px;height:42px}
+.flag-lg.country-ec,.flag-lg.country-EC{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-368px -44px;width:64px;height:42px}
+.flag-lg.country-gt,.flag-lg.country-GT{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:0 -336px;width:64px;height:42px}
+.flag-lg.country-pe,.flag-lg.country-PE{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-302px -132px;width:64px;height:42px}
+.flag-lg.country-tt,.flag-lg.country-TT{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-198px -204px;width:64px;height:42px}
+.flag-lg.country-cn,.flag-lg.country-CN{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-302px -88px;width:64px;height:42px}
+.flag-lg.country-in,.flag-lg.country-IN{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-236px -48px;width:64px;height:42px}
+.flag-lg.country-id,.flag-lg.country-ID{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-368px -264px;width:64px;height:42px}
+.flag-lg.country-mo,.flag-lg.country-MO{background-image:url(../images/compiled-sprite.png);background-position:-368px 0;width:64px;height:42px}
+.flag-lg.country-nz,.flag-lg.country-NZ{background-image:url(../images/compiled-sprite.png);background-position:-66px -292px;width:64px;height:42px}
+.flag-lg.country-ph,.flag-lg.country-PH{background-image:url(../images/compiled-sprite.png);background-position:-302px -44px;width:64px;height:42px}
+.flag-lg.country-sg,.flag-lg.country-SG{background-image:url(../images/compiled-sprite.png);background-position:-198px -248px;width:64px;height:42px}
+.flag-lg.country-kr,.flag-lg.country-KR{background-image:url(../images/compiled-sprite.png);background-position:-368px -88px;width:64px;height:42px}
+.flag-lg.country-ml,.flag-lg.country-ML{background-image:url(../images/compiled-sprite.png);background-position:-368px -378px;width:64px;height:42px}
+.flag-lg.country-tw,.flag-lg.country-TW{background-image:url(../images/compiled-sprite.png);background-position:-66px -204px;width:64px;height:42px}
+.flag-lg.country-th,.flag-lg.country-TH{background-image:url(../images/compiled-sprite.png);background-position:-66px -248px;width:64px;height:42px}
+.border-free-modals-container .border-free-modal-error-message,.border-free-modals-container .country-site-modal-error-message{display:none}

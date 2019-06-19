@@ -1,0 +1,44 @@
+@media(min-width:768px){.border-free-country-selector{right:0;bottom:0;position:absolute}
+}
+.border-free-country-selector.open .border-free-country-dropdown-target{background-color:#fff}
+.border-free-country-selector .border-free-country-dropdown-target{float:right;padding:5px;font-size:90%;cursor:pointer;display:inline-block;text-transform:uppercase}
+.border-free-country-selector .border-free-country-dropdown-target>span{margin-right:5px}
+.border-free-country-selector .border-free-country-dropdown-target>span:last-of-type{margin-right:0}
+.border-free-country-selector .border-free-country-dropdown-menu{width:100%;padding-top:0;padding-left:5px;padding-right:5px;padding-bottom:5px;background-color:#eee;-webkit-box-shadow:0 6px 12px rgba(0,0,0,0.175);box-shadow:0 6px 12px rgba(0,0,0,0.175)}
+.border-free-country-selector .border-free-country-dropdown-menu .border-free-country-dropdown-content{padding-top:0;padding-left:15px;padding-right:15px;padding-bottom:15px;background-color:#fff}
+.border-free-country-selector .border-free-country-dropdown-menu .border-free-country-dropdown-content .region-header{text-transform:uppercase;border-bottom:3px solid #262626}
+.border-free-country-selector .border-free-country-selector-modal-error{display:none}
+.border-free-country-selector .ship-to{margin-right:5px}
+.border-free-country-selector .country{display:inline-block}
+.border-free-country-selector .country.country-AT{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -132px;width:16px;height:11px}
+.border-free-country-selector .country.country-AU{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -119px;width:16px;height:11px}
+.border-free-country-selector .country.country-BR{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -106px;width:16px;height:11px}
+.border-free-country-selector .country.country-CA{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -93px;width:16px;height:11px}
+.border-free-country-selector .country.country-CL{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -80px;width:16px;height:11px}
+.border-free-country-selector .country.country-CN{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -67px;width:16px;height:11px}
+.border-free-country-selector .country.country-CO{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -54px;width:16px;height:11px}
+.border-free-country-selector .country.country-CR{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -236px;width:16px;height:11px}
+.border-free-country-selector .country.country-DE{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -223px;width:16px;height:11px}
+.border-free-country-selector .country.country-DO{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -210px;width:16px;height:11px}
+.border-free-country-selector .country.country-EC{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -197px;width:16px;height:11px}
+.border-free-country-selector .country.country-FR{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -184px;width:16px;height:11px}
+.border-free-country-selector .country.country-GB{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -145px;width:16px;height:11px}
+.border-free-country-selector .country.country-GT{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -171px;width:16px;height:11px}
+.border-free-country-selector .country.country-HK{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-452px -93px;width:16px;height:11px}
+.border-free-country-selector .country.country-ID{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-434px -158px;width:16px;height:11px}
+.border-free-country-selector .country.country-IN{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-452px -171px;width:16px;height:11px}
+.border-free-country-selector .country.country-JP{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-452px -184px;width:16px;height:11px}
+.border-free-country-selector .country.country-KR{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-452px -197px;width:16px;height:11px}
+.border-free-country-selector .country.country-MO{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-452px -210px;width:16px;height:11px}
+.border-free-country-selector .country.country-MX{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-452px -223px;width:16px;height:11px}
+.border-free-country-selector .country.country-NZ{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-452px -236px;width:16px;height:11px}
+.border-free-country-selector .country.country-PA{background-image:url(compiled-sprite.png)/*tpa=http://www.fossil-asia.com/templates/fossil/images/compiled-sprite.png*/;background-position:-452px -54px;width:16px;height:11px}
+.border-free-country-selector .country.country-PE{background-image:url(../images/compiled-sprite.png);background-position:-452px -67px;width:16px;height:11px}
+.border-free-country-selector .country.country-PH{background-image:url(../images/compiled-sprite.png);background-position:-452px -80px;width:16px;height:11px}
+.border-free-country-selector .country.country-SG{background-image:url(../images/compiled-sprite.png);background-position:-434px -249px;width:16px;height:11px}
+.border-free-country-selector .country.country-TH{background-image:url(../images/compiled-sprite.png);background-position:-452px -106px;width:16px;height:11px}
+.border-free-country-selector .country.country-TT{background-image:url(../images/compiled-sprite.png);background-position:-452px -119px;width:16px;height:11px}
+.border-free-country-selector .country.country-TW{background-image:url(../images/compiled-sprite.png);background-position:-452px -132px;width:16px;height:11px}
+.border-free-country-selector .country.country-US{background-image:url(../images/compiled-sprite.png);background-position:-452px -145px;width:16px;height:11px}
+.border-free-country-selector .country.country-VE{background-image:url(../images/compiled-sprite.png);background-position:-452px -158px;width:16px;height:11px}
+.border-free-country-selector .country.country-ML{background-image:url(../images/compiled-sprite.png);background-position:-452px -249px;width:16px;height:11px}

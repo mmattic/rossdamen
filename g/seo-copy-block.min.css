@@ -1,0 +1,9 @@
+.seo-container{padding:10px}
+.seo-container.gray-lighter{background-color:#eee}
+.seo-block{position:relative;padding-bottom:20px}
+.seo-block .hide-seo{display:none}
+.seo-block.open .hide-seo{display:block}
+.seo-block.open .read-more{display:none}
+.seo-block a{text-decoration:underline}
+.seo-block .seo-toggle{height:20px;position:absolute;width:100%;bottom:0}
+.seo-block .seo-toggle a{position:absolute;right:0;line-height:20px;outline:0;text-decoration:underline}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="28px" width="28px" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28 28"><!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+ <title>Group 13</title>
+ <desc>Created with Sketch.</desc>
+ <defs>
+  <polygon id="path-1" points="0.16076 27.567 27.747 27.567 27.747 0.00020675 0.16076 0.00020675"/>
+ </defs>
+ <g id="Symbols" fill-rule="evenodd" fill="none">
+  <g id="1440-Footer" transform="translate(-1175 -193)">
+   <g id="Group-19">
+    <g transform="translate(1064.7 128)">
+     <g id="Group-7" transform="translate(0 65)">
+      <g id="Group-13" transform="translate(110.11)">
+       <mask id="mask-2" fill="white">
+        <use xlink:href="#path-1"/>
+       </mask>
+       <path id="Fill-11" fill="#fff" mask="url(#mask-2)" d="m19.816 18.871h-2.512v-4.042c0-1.015-0.365-1.71-1.274-1.71-0.695 0-1.106 0.466-1.29 0.916-0.061 0.168-0.084 0.389-0.084 0.618v4.218h-2.511c0.03-6.849 0-7.559 0-7.559h2.511v1.076c0.331-0.518 0.928-1.251 2.267-1.251 1.657 0 2.893 1.083 2.893 3.402v4.332zm-10.319-8.588h-0.0159c-0.8469 0-1.3889-0.5805-1.3889-1.3048 0-0.7402 0.5648-1.3039 1.4193-1.3039 0.8628 0 1.3968 0.5637 1.4048 1.3039 0.008 0.7243-0.542 1.3048-1.4193 1.3048zm-1.2593 8.588h2.5186v-7.559h-2.5186v7.559zm5.7166-18.871c-7.618 0-13.793 6.1709-13.793 13.784-0.00024 7.612 6.175 13.783 13.793 13.783s13.793-6.171 13.793-13.783c0-7.6129-6.175-13.784-13.793-13.784v0.00020675z"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

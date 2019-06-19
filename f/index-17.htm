@@ -1,0 +1,840 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <title>Uncrate Magazine</title>
+  <meta name="description" content="Uncrate is a bi-annual publication filled with some of the world's best gear, apparel, and automobiles for men.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-itunes-app" content="app-id=450084793" />
+  <link rel="shortcut icon" type="image/ico" href="//uncrate.com/favicon.ico" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/uncrate" />
+  <link rel="stylesheet" type="text/css" href="A0D54AF8FDE18667B.css"  />
+  <script src="jquery.min-1.js" ></script>
+  <script type="text/javascript">
+    var badges = {"now":1560911257,"uncrate":[1560895200,1560891615,1560888039,1560884400,1560882601,1560880801,1560877200,1560873601,1560870000,1560866402,1560808800,1560805206,1560801623,1560798027,1560796200,1560794400,1560790800,1560787201,1560783600,1560780600],"tv":[1560885434,1560876518,1560873119,1560868008,1560799215,1560796463,1560793802,1560781586,1560780096,1560546419,1560544127,1560528776,1560524990,1560447192,1560445514,1560434639,1560369083,1560361382,1560286494,1560273090],"supply":[1560888039,1560883467,1560798027,1560456006,1560372982,1560274213,1560117649,1559930454,1559925012,1559916044,1559862008,1559844001,1559658057,1559587987,1559401638,1559336447,1559250056,1559163605,1559141069,1559080801]}  </script>
+  <script src="firebase.js" ></script>
+  <script type="text/javascript" src="min.js-v=5.0.10.js" ></script>
+  <script src="shopify-buy.polyfilled.globals.min.js" ></script>
+<!--   <script type="text/javascript" src="/js/cart.js"></script> -->
+  <script type="text/javascript" src="magazine.js-issue=004.js" ></script>
+  <link rel='stylesheet' href="min.css-i=129.css" >
+
+</head>
+<body class="magazine">
+ <section class="site-wrapper">  
+  <div id="mobile-header" class="animated">
+    <div class="grid">
+      <a href="#" id="mobile-nav-toggle"><span></span><sup class="badge badge-mobile">&nbsp;</sup></a>
+      <a id="fixed-header-logo" href="index.htm"  title="Uncrate"><img src="uncrate-m.png-ver=052518.png"  alt="" /></a>
+      <ul id="fixed-nav" class="nav">
+        <li><a href="index-1.htm" >Gear</a></li>
+        <li><a href="index-2.htm" >Style</a></li>
+        <li><a href="index-3.htm" >Cars</a></li>
+        <li><a href="index-4.htm" >Tech</a></li>
+        <li><a href="index-5.htm" >Shelter</a></li>
+        <li><a href="index-6.htm" >Vices</a></li>
+        <li><a href="index-7.htm" >Body</a></li>
+        <li><a href="index-8.htm" >Etc</a></li>
+      </ul>
+
+
+
+      <a class="search remove" id="search-toggle-sticky" href="index-9.htm" >Search</a>
+
+      <a id="cart-icon-link-fixed" class="btn--crate-tab js-prevent-cart-listener js-active">
+        <span class="btn__counter badge" data-count="0">0</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+<div class="wrapper header-wrapper supply-header-wrapper">
+    <div class="header">
+     <div id="fixed-header" class="animated">
+      <div class="wrapper uncrate-family-wrapper slim-family-wrapper">
+        <div class="grid">
+          <div class="date-nav family-nav">
+            <ul class="nav">
+              <li class="pull-left dropdown">
+                <a href="index.htm" ><img src="uncrate-family.png"  alt="Uncrate" class="slim-family-logo" /></a>
+              </li>
+              <li class="fixed-center-nav-item">
+                <li class="center-nav-item">
+                  <a href="index.htm" >Uncrate<span class="dot">.</span>com&nbsp;<sup id="uncrate-badge-count" class="uncrate-badge-count badge" data-count="0">0</sup></a>
+                </li>
+                <li class="center-nav-item">
+                  <a href="index-10.htm" >Uncrate<span class="dot">.</span>supply&nbsp;<sup id="supply-badge-count" class="supply-badge-count badge" data-count="0">0</sup></a>
+                </li> 
+                <li class="center-nav-item">
+                  <a href="index-11.htm" >Uncrate<span class="dot">.</span>tv&nbsp;<sup id="tv-badge-count" class="tv-badge-count badge" data-count="0">0</sup></a>
+                </li>
+                <li class="center-nav-item dropdown">
+                  <a class="dropdown-toggle"><span class="atsign">@</span>uncrate</a>
+                    <ul class="dropdown-menu" style="display: none;">
+                      <li><a href ="javascript:return false;" >Instagram</a></li>
+                      <li><a href ="javascript:return false;" >Twitter</a></li>
+                      <li><a href ="javascript:return false;" >Youtube</a></li>
+                      <li><a href ="javascript:return false;" >Facebook</a></li>
+                      <li><a href ="javascript:return false;" >Tumblr</a></li>
+                    </ul>   
+                </li>   
+              </li>   
+              <li class="pull-right">
+                <a class="search remove" id="search-toggle-sticky" href="index-9.htm" >Search</a>
+                
+                <!-- Begin Uncrate Supply change -->
+                <a id="cart-icon-link-fixed" class="btn--crate-tab js-prevent-cart-listener js-active">
+                  <span class="btn__counter badge" data-count="0"></span>
+                </a>   
+                <!-- End Uncrate Supply change --> 
+              </li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+   </div>
+
+      <div class="wrapper uncrate-family-wrapper slim-family-wrapper">
+        <div class="grid">
+          <div class="date-nav family-nav">
+            <ul class="nav">
+              <li class="pull-left dropdown">
+                <a href="index.htm" ><img src="uncrate-family.png"  alt="Uncrate" class="slim-family-logo" /></a>
+              </li>
+              <li class="center-nav-item">
+                <a href="index.htm" >Uncrate<span class="dot">.</span>com&nbsp;<sup id="uncrate-badge-count" class="uncrate-badge-count badge" data-count="0">0</sup></a>
+              </li>
+              <li class="center-nav-item">
+                <a href="index-10.htm" >Uncrate<span class="dot">.</span>supply&nbsp;<sup id="supply-badge-count" class="supply-badge-count badge" data-count="0">0</sup></a>
+              </li> 
+              <li class="center-nav-item">
+                <a href="index-11.htm" >Uncrate<span class="dot">.</span>tv&nbsp;<sup id="tv-badge-count" class="tv-badge-count badge" data-count="0">0</sup></a>
+                
+              </li>
+              <li class="pull-right dropdown">
+                <a class="dropdown-toggle">Follow <span class="atsign">@</span>uncrate</a>
+                  <ul class="dropdown-menu" style="display: none;">
+                    <li><a href ="javascript:return false;" >Instagram</a></li>
+                    <li><a href ="javascript:return false;" >Twitter</a></li>
+                    <li><a href ="javascript:return false;" >Youtube</a></li>
+                    <li><a href ="javascript:return false;" >Facebook</a></li>
+                    <li><a href ="javascript:return false;" >Tumblr</a></li>
+                  </ul>   
+              </li>         
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      </div>
+      
+      <div class="mag-sub-nav" style="height: 0px;"></div>  
+  
+    <section id="magazine-swiper-wrapper" data-slider-number="04">
+    <div class="magazine-issue-container">
+      <div id="magazine-swiper-container" class="magazine-swiper-container swiper-container animated">
+        <div id="magazine-swiper" class="swiper-wrapper">
+
+           <div class="swiper-slide swiper-preload">
+            <img src="04-ronin-rezvani.jpg"  class="magazine-slide-image">
+          </div>   
+           <div class="swiper-slide swiper-preload">
+            <img src="04-gucci.jpg"  class="magazine-slide-image">
+          </div>
+           <div class="swiper-slide swiper-preload">
+            <img data-src="04-rezvani-tank.jpg"  class="magazine-slide-image">
+          </div>
+           <div class="swiper-slide swiper-preload">
+            <img data-src="04-amangari.jpg"  class="magazine-slide-image">
+          </div>          
+          <div class="swiper-slide swiper-preload">
+            <img data-src="04-steak.jpg"  class="magazine-slide-image">
+          </div>
+          <div class="swiper-slide swiper-preload">
+            <img data-src="04-folly.jpg"  class="magazine-slide-image">
+          </div>
+          <div class="swiper-slide swiper-preload">
+            <img data-src="04-tudor.jpg"  class="magazine-slide-image">
+          </div>
+          <div class="swiper-slide swiper-preload">
+            <img data-src="04-hauly-bikes.jpg"  class="magazine-slide-image">
+          </div>
+       
+          
+                  
+        </div><!-- magazine-swiper -->
+<!--         <div class="swiper-pagination swiper-pagination-white"></div> -->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+      </div><!-- magazine-swiper-container -->
+
+      </div><!-- intro-copy -->
+      
+      <div id="intro-copy-04" class="grid intro-copy" data-issue-number="04">
+        <h1>Uncrate Magazine / Issue 04</h1>
+        <p>For Issue 04, we headed to the Utah desert to drive the apocalyptic Rezvani Tank and the special edition Ronin x Uncrate motorcycles. We kept heading west, switching to a Husqvarna bike and camping at the Salton Sea before finding better lodging in Joshua Tree. We wrapped things up back at the studio with a selection of watches, slippers, Cryptocurrency storage, space travel, dry-aged steaks, axes, cold brew, and more.</p>
+        <p>One magazine, six languages: English / Deutsche / Français / Italiano / Español / 日本語</p>
+        <p>168 pages / Heavyweight paper / Book-style cover / Free shipping in U.S.</p>
+      </div><!-- intro-copy -->
+      
+       <div id="intro-copy-03" class="grid intro-copy hidden" data-issue-number="03">
+        <h1>Uncrate Magazine / Issue 03</h1>
+        <p>For Issue 03, we headed to upstate New York to test drive the prototype electric Bollinger B1, the next-generation minimalist utility truck. We then took a classic Ford Bronco from the 1970's down Kentucky's legendary Bourbon Trail, stopping and sampling all along the route — and even getting schooled by master distiller Jimmy Russell. You'll find the world's best bourbon guide in this issue, with 25 bottles ranging in price from $25 to $4,000 a bottle. To complete our boxy, American-made SUV trifecta, we drove an Icon Ford Bronco up to Yosemite. Finally, we wrapped things up with edited guides full of the best hiking boots, backpacks, turntables, headphones, and camp knives.</p>
+        <p>140 pages / Ad-free / Heavyweight paper / Book-style cover / Free shipping in U.S.</p>
+      </div><!-- intro-copy -->
+      
+       <div id="intro-copy-02" class="grid intro-copy hidden" data-issue-number="02">
+        <h1>Uncrate Magazine / Issue 02</h1>
+        <p>For Issue 02, we flew down to Cuba to do some long-awaited exploring, gathering all of the cigars and rum the island has to offer. We then returned stateside and dug up even more. In Southern California, we visited the garage-oasis of Mercedes Motoring and obsessed over their immaculate collection of classic Benzes. We wrapped things up with edited guides full of machetes, submarines, golf equipment, sneakers, watches, and skateboards, among other gear.</p>
+        <p>200 Pages / Only 3 Ads / Heavyweight Paper / Book-Style Cover / Free Shipping</p>
+      </div><!-- intro-copy -->
+
+      <div id="intro-copy-01" class="grid intro-copy hidden" data-issue-number="01">
+        <h1>Uncrate Magazine / Issue 01</h1>
+        <p>For Issue 01, we prowled up and down the West Coast and Pacific Northwest, from Big Sur all the way up to Cape Flattery, the northwesternmost point of the United States. We test drove the BMW i8, Tesla Model S, and an old Toyota Land Cruiser, as well as a fleet of rebuilt DeLoreans. You'll also find a bevy of gear — everything from a flamethrower to a robot lawn mower — plus guides full of jackets, sneakers, chinos, tees, sunglasses, and summer beer.</p>
+        <p>200 Pages / Heavyweight Paper / Book-Style Cover / Free Shipping</p>
+      </div><!-- intro-copy -->
+
+      <div id="intro-copy-00" class="grid intro-copy hidden"  data-issue-number="00">
+        <h1>Uncrate Magazine / Issue 00 Beta</h1>
+        <p>For Issue 00 (what we're calling our beta issue), we visited Iceland, Colorado, and Alaska, among other locales, and tested hundreds of cold weather products. We bought a vintage 1995 Range Rover LWB (Long Wheelbase) and compared it to a new 2015 version. We then took a restored Defender 110 out for a drive. Inside the issue, you'll also find the Danner x Uncrate boot collaboration, Everyday Carry collections, and a perfect New York cabin you can buy today.</p>
+        <p>Over 200 Pages / Heavyweight Paper / Book-Style Cover / Free Shipping</p>
+      </div><!-- intro-copy -->
+
+    </div><!-- magazine-issue-01-container -->
+  </section><!-- magazine-swiper-wrapper -->
+  <section id="issues-listing" class="grid">
+    <div class="issues-row">
+
+      <div class="issue ui-wrapper clean">
+        <a href ="javascript:return false;"  class="view-issue-details" data-issue-number="04">
+          <img src="issue-04.jpg"  alt="Uncrate - Issue 04"/>
+        </a>
+        <h3>Uncrate Issue 04 / $20</h3>
+        <div id="">
+          <div class="productx">
+            <h3 class="variant-price"></h3>
+            <img class="variant-image">
+            <h3 class="variant-title"></h3>
+            <a href ="javascript:return false;" >
+              <button class="btn js-prevent-cart-listener" id="">BUY FROM UNCRATE</button>
+            </a>
+          </div>
+        </div>
+      </div><!-- issue -->
+
+      <div class="issue">
+        <a href ="javascript:return false;"  class="view-issue-details" data-issue-number="03">
+          <img src="issue-03.jpg"  alt="Uncrate - Issue 03"/>
+        </a>
+        <h3>Uncrate Issue 03 / $15</h3>
+        <div id="">
+          <div class="productx">
+            <h3 class="variant-price"></h3>
+            <img class="variant-image">
+            <h3 class="variant-title"></h3>
+            <a href ="javascript:return false;"  class="sold-out-issue">
+              <span>SOLD OUT</span>
+            </a>
+          </div>
+        </div>
+      </div><!-- issue -->
+      <div class="issue">
+        <a href ="javascript:return false;"  class="view-issue-details" data-issue-number="02">
+          <img src="issue-02.jpg"  alt="Uncrate - Issue 02"/>
+        </a>
+        <h3>Uncrate Issue 02 / $15</h3>
+        <div id="">
+          <div class="productx">
+            <h3 class="variant-price"></h3>
+            <img class="variant-image">
+            <h3 class="variant-title"></h3>
+            <a href ="javascript:return false;" =>
+              <button class="btn js-prevent-cart-listener" id="">BUY FROM UNCRATE</button>
+            </a>
+          </div>
+        </div>
+      </div><!-- issue -->
+    </div>
+    <div class="issues-row">      
+      <div class="issue">
+        <a href ="javascript:return false;"  class="view-issue-details" data-issue-number="01">
+          <img src="issue-01.jpg"  alt="Uncrate - Issue 01"/>
+        </a>
+        <h3>Uncrate Issue 01 / $15</h3>
+        <div id="">
+          <div class="productx">
+            <h3 class="variant-price"></h3>
+            <img class="variant-image">
+            <h3 class="variant-title"></h3>
+            <a href ="javascript:return false;"  class="sold-out-issue">
+              <span>SOLD OUT</span>
+            </a>
+          </div>
+        </div>
+      </div><!-- issue -->  
+
+      <div class="issue">
+        <a href ="javascript:return false;"  class="view-issue-details" data-issue-number="00">
+          <img src="issue-00.jpg"  alt="Uncrate - Issue 00"/>
+        </a>
+        <h3>Uncrate Issue 00 / $15</h3>
+        <div id="">
+          <div class="productx">
+            <h3 class="variant-price"></h3>
+            <img class="variant-image">
+            <h3 class="variant-title"></h3>
+            <a href ="javascript:return false;"  class="sold-out-issue">
+              <span>SOLD OUT</span>
+            </a>
+          </div>
+        </div>
+      </div><!-- issue -->  
+      
+    </div><!-- issues-row -->  
+    <!--
+    <br />
+    <br />
+    <br />    
+    <div class="issues-row">
+      <div class="issue">
+        <a href="#" class="view-issue-details" data-issue-number="00">
+          <img src="//uncrate.com/img/magazine/issue-00.jpg" alt="Uncrate - Issue 00 Beta"/>
+        </a>
+        <h3>Issue 00 Beta</h3>
+        <span class="buy-single sold-out-issue"><span>SOLD OUT</span></span>
+      </div><!-- issue -->
+      <div class="issue">
+      </div>
+      <div class="issue">
+      </div>
+    </div><!-- issues-row -->
+  </section><!-- issues-listing -->
+
+  <section id="magazine-stockists">
+  <div class="grid">
+    <h2>Stockists</h2>
+    <p>Uncrate magazine is available at select hotels, airports, and men's stores in major cities across the globe.</p>
+    <ul class="magazine-stockists-list">
+      <li>
+      <ul>
+          <li><h3>Hotels</h3></li>
+
+          <br /><br />
+
+          <li><a href ="javascript:return false;"  target="_blank">Ace Hotel</a></li>
+
+
+          <li>Chicago</li>
+          <li>Los Angeles</li>
+          <li>London</li>
+          <li>New Orleans</li>
+          <li>New York</li>
+          <li>Palm Springs, CA</li>
+          <li>Pittsburgh</li>
+          <li>Portland</li>
+          <li>Seattle</li>
+
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;" >Virgin Hotel</a></li>
+          <li>Chicago</li>
+        </ul>
+
+          <ul>
+          <li><a href ="javascript:return false;" >The Ramble Hotel</a></li>
+          <li>Denver</li>
+        </ul>
+
+         <ul>
+          <li><a href ="javascript:return false;" >The Joseph</a></li>
+          <li>Columbus, OH</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;" >The Surfrider</a></li>
+          <li>Malibu</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;" >Coachman Hotel</a></li>
+          <li>Lake Tahoe</li>
+        </ul>
+
+      </li>
+
+      <li>
+              <ul>
+          <li><h3>Airports</h3></li>
+          <br /><br />
+          <li><a href ="javascript:return false;"  target="_blank">AMEX Centurion Lounge</a></li>
+          <li>Hong Kong (HKG)</li>
+          <li>Houston (IAH)</li>
+          <li>Las Vegas (LAS)</li>
+          <li>New York (LaGuardia)</li>
+          <li>Miami (MIA)</li>
+          <li>Philadelphia (PHL)</li>
+          <li>Dallas / Fort Worth (DFW)</li>
+          <li>San Francisco (SFO)</li>
+          <li>Seattle (SEA)</li>
+</ul>
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Wingtips</a></li>
+          <li>New York (JFK)</li>
+          <li>St. Louis (STL)</li>
+   </ul>
+
+      </li>
+      <li>
+
+                <ul>
+          <li><h3>Stores</h3></li>
+          <br /><br />
+          <li><a href ="javascript:return false;" >Aether</a></li>
+          <li>Los Angeles</li>
+          <li>New York</li>
+          <li>Aspen, CO</li>
+</ul>
+        <ul>
+          <li><a href ="javascript:return false;" >Apolis</a></li>
+          <li>Los Angeles</li>
+          <li>New York</li>
+</ul>
+
+<ul>
+          <li><a href ="javascript:return false;"  target="_blank">Athenaeum</a></li>
+          <li>Amsterdam, Netherlands</li>
+          </ul>
+
+        <ul>
+
+          <li><a href ="javascript:return false;" >Bridge & Burn</a></li>
+          <li>Portland</li>
+
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;" >Coffee Table Mags</a></li>
+          <li>Hamburg, Germany</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;" >Compendium Design</a></li>
+          <li>Fremantle, Australia</li>
+        </ul>
+
+         <ul>
+          <li><a href ="javascript:return false;" >Do You Read Me</a></li>
+          <li>Berlin</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;" >DSPTCH</a></li>
+          <li>New York</li>
+          <li>San Francisco</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Felding Co.</a></li>
+           <li>Knoxville, TN</li>
+        </ul>
+
+         <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Fox Trot</a></li>
+           <li>Chicago</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Heath Newsstand</a></li>
+           <li>San Francisco</li>
+        </ul>
+
+
+
+
+
+
+
+      </li>
+      <li>
+
+                <ul>
+<li><h3>Stores Cont'd.</h3></li>
+          <br /><br />
+
+
+<ul>
+<li><a href ="javascript:return false;"  target="_blank">Iron & Resin</a></li>
+           <li>San Francisco</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Kiln</a></li>
+           <li>Columbus, OH</li>
+        </ul>
+
+
+
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Leica Store</a></li>
+           <li>San Francisco</li>
+        </ul>
+
+         <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Lone Flag</a></li>
+           <li>San Diego</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Milworks</a></li>
+           <li>Milwaukee</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Mohawk General Store</a></li>
+           <li>Los Angeles</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Nous</a></li>
+          <li>Paris, France</li>
+          </ul>
+
+          <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Papercut</a></li>
+          <li>Stockholm, Sweden</li>
+          </ul>
+
+ <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Topo Designs</a></li>
+           <li>Boulder</li>
+           <li>Denver</li>
+           <li>Fort Collins, CO</li>
+           <li>San Francisco</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;" >Under The Cover</a></li>
+          <li>Lisbon, Portugal</li>
+        </ul>
+
+        <ul>
+          <li><a href ="javascript:return false;"  target="_blank">Wittmore</a></li>
+           <li>Los Angeles</li>
+        </ul>
+
+
+
+
+
+
+
+
+
+      </li>
+    </ul>
+
+
+  </div><!-- grid -->
+</section><!-- magazine-stockists -->
+  
+    <div class="main-footer-wrapper">
+  <footer class="main-footer">
+    <!-- Upper footer modules. -->
+    <div class="footer-modules upper-footer">
+      <div class="footer-module footer-connect clearfix">
+        <div class="newsletter-subscription">
+          <h4>Get on the Black List.</h4>
+          <p>Be the first to know about the newest gear, automobiles, and apparel for men.</p>
+
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+          
+          <form action="https://uncrate.us1.list-manage.com/subscribe/post?u=125c5c5823653b64c4aee90cc&id=e896b3ec40" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate clearfix" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+          
+          <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+          <div class="mc-field-group">
+          	<input type="email" value="" name="EMAIL" class="newsletter-email" id="mce-EMAIL" placeholder="YOUR EMAIL" onfocus="this.placeholder = ''">
+          </div>
+          	<div id="mce-responses" class="clear">
+          		<div class="response" id="mce-error-response" style="display:none"></div>
+          		<div class="response" id="mce-success-response" style="display:none">YOU’RE NOW ON THE LIST.</div>
+          	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_125c5c5823653b64c4aee90cc_e896b3ec40" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="newsletter-submit"></div>
+              </div>
+          </form>
+          
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-module footer-text-box">
+        <div class="footer-quote">
+          <div class="rte">
+            <h3>&ldquo;If James Bond were to make an app for the stuff he wanted to buy, this would be the app.&rdquo;</h3>
+          </div>
+          <p>&#8212; <a href ="javascript:return false;"  target="_blank">Doug Stephens, Retail Futurist</a></p>
+        </div>
+
+        <div class="footer-app-links">
+<!--
+          <div class="footer-app-text">
+            <h3>Download the Uncrate app free.</h3>
+          </div>
+-->
+          <div class="footer-app-devices">
+            <img src="app-devices.png" >
+          </div>
+          <div class="footer-app-buttons">
+            <a href ="javascript:return false;"  target="_blank" class="footer-app-button"><img src="app-store.jpg" ></a>
+            <a href ="javascript:return false;"  target="_blank" class="footer-app-button"><img src="google-play.jpg" ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lower footer modules. -->
+
+    <div class="footer-modules lower-footer">
+      <div class="footer-module footer-link-lists">
+        <div class="footer-link-list">
+          <h4>Uncrate.com</h4>
+          <ul>
+            <li><a href="index-1.htm" >Gear</a></li>
+            <li><a href="index-2.htm" >Style</a></li>
+            <li><a href="index-3.htm" >Cars</a></li>
+            <li><a href="index-5.htm" >Shelter</a></li>
+            <li><a href="index-6.htm" >Vices</a></li>
+            <li><a href="index-8.htm" >Etc.</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-link-list">
+          <h4>Uncrate.tv</h4>
+          <ul class="top-footer-link-list">
+            <li><a href="index-11.htm" >Latest Videos</a></li>
+            <li><a href="index-73.htm" >Channels</a></li>
+          </ul>
+          
+          <h4>Magazine</h4>
+          <ul>
+            <li><a href="index-17.htm" >Buy Issues</a></li>
+            <li><a href="index-17.htm#magazine-stockists" >Stockists</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-link-list">
+          <h4>Uncrate.Supply</h4>
+          <ul>
+            <li><a href="index-10.htm" >New Arrivals</a></li>
+            <li><a href="index-74.htm" >Brands</a></li>
+            <li><a href ="javascript:return false;" >Returns / Exchanges</a></li>
+            <li><a href="index-75.htm" >Shipping</a></li>
+            <li><a href ="javascript:return false;" >Order Lookup</a>
+            <li><a href="index-76.htm" >Gift Cards</a></li>
+            <li><a href="index-77.htm" >Affiliates</a></li>
+            <li><a href="#" data-email="service">Help</a></li>        
+          </ul>
+        </div>
+
+        <div class="footer-link-list">
+          <h4>Elsewhere</h4>
+          <ul>
+            <li><a href ="javascript:return false;" >Twitter</a></li>
+            <li><a href ="javascript:return false;" >Instagram</a></li>
+            <li><a href ="javascript:return false;" >Facebook</a></li>
+            <li><a href ="javascript:return false;" >Youtube</a></li>
+            <li><a href ="javascript:return false;" >Tumblr</a></li>
+            <!--<li><a href="http://www.snapchat.com/uncrate">Snapchat</a></li> -->
+          </ul>
+        </div>
+
+        <div class="footer-link-list">
+          <h4>Global</h4>
+          <ul>
+            <li><a href="index-12.htm" >Español</a></li>
+            <li><a href="index-13.htm" >Français</a></li>
+            <li><a href="index-14.htm" >Deutsche</a></li>
+            <li><a href="index-15.htm" >日本語</a></li>
+            <li><a href="index-16.htm" >中文</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-link-list">
+          <h4>Imprint</h4>
+          <ul>
+            <li><a href="index-78.htm" >About</a></li>
+            <li><a href="index-79.htm" >Contact</a></li>
+            <li><a href="index-80.htm" >Advertise</a></li>
+            <li><a href="index-81.htm" >Privacy</a></li>
+            <li><a href="index-82.htm" >Terms</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Mobile LinkLists -->
+
+      <div class="footer-module mobile-footer-link-lists">
+        <div class="mobile-footer-link-list">
+          <ul>
+            <li><a href="index.htm" >Uncrate.com</a></li>
+            <li><a href="index-10.htm" >Uncrate.supply</a></li>
+            <li><a href="index-11.htm" >Uncrate.tv</a></li>
+          </ul>
+          <ul>
+            <li><a href="index-78.htm" >About</a></li>
+            <li><a href="index-79.htm" >Contact</a></li>
+            <li><a href="index-80.htm" >Advertise</a></li>
+            <li><a href="index-81.htm" >Privacy</a></li>
+            <li><a href="index-82.htm" >Terms</a></li>
+          </ul>
+          <ul>
+            <li><a href="index-12.htm" >Español</a></li>
+            <li><a href="index-13.htm" >Français</a></li>
+            <li><a href="index-14.htm" >Deutsche</a></li>
+            <li><a href="index-15.htm" >日本語</a></li>
+            <li><a href="index-16.htm" >中文</a></li>
+          </ul>          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="copyright">
+      <div class="footer-logo"><img src="footer-uncrate-logo.png" ></div>
+      <p role="contentinfo">&copy; 2019 
+        Uncrate LLC. All rights reserved. <br />Independently published since 2005.</p>
+    </div>
+
+  </footer>
+</div>
+
+</section>
+
+  <!-- .cart begin -->
+<div class="cart">
+
+  <!-- .cart-section begin // cart header -->
+  <div class="cart-section cart-section--top">
+    <strong class="cart-title">Your crate</strong>
+    <a class="btn--close">
+      <span aria-role="hidden">×</span>
+      <span class="visuallyhidden">Close</span>
+    </a>
+  </div>
+  <!-- .cart-section end -->
+  
+  <!-- .cart-form begin // cart body -->
+  <div class="cart-form">
+  		<div class="cart-item-container cart-section">
+  		</div>
+  		<!-- .cart-bottom begin -->
+  		<div class="cart-bottom">
+  				<div class="cart-info clearfix cart-section">
+  						<div class="type--caps cart-info__total cart-info__small">Total</div>
+  						<div class="cart-info__pricing">
+  								<span class="pricing pricing--no-padding"></span>
+  						</div>
+  				</div>
+  				<div class="cart-actions-container cart-section type--center">
+  						<input type="submit" class="btn btn--cart-checkout" id="checkout" name="checkout" value="Checkout">
+  				</div>
+  				<p class="cart-fine-print">
+  						Free shipping over $25 in the U.S.
+  						<br /> International rates at checkout.
+  				</p>
+  		</div>
+  		<!-- .cart-bottom end -->
+  </div>
+  <!-- .cart-form end -->
+</div>
+<!-- .cart end -->
+  
+<a class="btn--cart-tab js-prevent-cart-listener">
+  <span class="btn__counter"></span>
+  <img src="bag.svg"  alt="Crate" />
+</a>
+
+<script id="CartItemTemplate" type="text/template">
+  <div class="cart-item">
+  		<div class="cart-item__content">
+  				<div class="cart-item__img"></div>
+  				<div class="cart-item__copy">
+  						<div class="cart-item__title"></div>
+  						<div class="cart-item__variant-title"></div>
+  						<button class="cart-item__remove">Remove</button>
+  				</div>
+  				<div class="cart-item__quantity-container">
+  						<select class="cart-item__quantity" aria-label="Quantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+  				</div>
+  				<div class="cart-item__price"></div>
+  		</div>
+  </div>
+</script>
+
+
+
+
+
+  <script src="firebase.js" ></script>
+<script src="jquery.min.js" ></script>
+<script src="shopify-buy.polyfilled.globals.min.js" ></script>
+<script type="text/javascript">var blogURL = 'https://uncrate.com/';</script>
+<script type="text/javascript">
+  var badges = {"now":1560911257,"uncrate":[1560895200,1560891615,1560888039,1560884400,1560882601,1560880801,1560877200,1560873601,1560870000,1560866402,1560808800,1560805206,1560801623,1560798027,1560796200,1560794400,1560790800,1560787201,1560783600,1560780600],"tv":[1560885434,1560876518,1560873119,1560868008,1560799215,1560796463,1560793802,1560781586,1560780096,1560546419,1560544127,1560528776,1560524990,1560447192,1560445514,1560434639,1560369083,1560361382,1560286494,1560273090],"supply":[1560888039,1560883467,1560798027,1560456006,1560372982,1560274213,1560117649,1559930454,1559925012,1559916044,1559862008,1559844001,1559658057,1559587987,1559401638,1559336447,1559250056,1559163605,1559141069,1559080801]}</script>
+<script type="text/javascript" src="min.js-v=76.js" ></script>
+
+
+
+<div id="amzn-assoc-ad-08f6b8ef-b35e-4e2b-9f30-9eb738b8d173"></div><script async src="onejs-MarketPlace=US&adInstanceId=08f6b8ef-b35e-4e2b-9f30-9eb738b8d173.js" ></script>
+
+<!-- Begin comScore Tag -->
+<script>
+ var _comscore = _comscore || [];
+ _comscore.push({ c1: "2", c2: "29954480" });
+ (function() {
+   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b/") + ".scorecardresearch.com/beacon.js";
+   el.parentNode.insertBefore(s, el);
+ })();
+</script>
+<noscript>
+ <img src="p2-c1=2&c2=29954480&cv=2.0&cj=1.gif"  />
+</noscript>
+<!-- End comScore Tag -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','analytics.js'/*tpa=https://www.google-analytics.com/analytics.js*/,'ga');
+
+    ga('create', 'UA-255873-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

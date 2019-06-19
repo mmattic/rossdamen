@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="msvalidate.01" content="ED10DA14718BD57C514D94385B93BC33" />
+    <meta name="apple-itunes-app" content="app-id=1052884030" />
+    <meta name="google-site-verification" content="Icc-RvQchUmbVcP7lUYbbWIU-KaNWp42hDOSP9rSfTo" />
+    <meta name="author" content="FreshBooks">
+    <link rel="preload" as="font" crossorigin type="font/woff" href="https://www.freshbooks.com/wp-content/themes/freshbooks/dist/fonts/FranklinGothicURW-Lig_15f777e8.woff" />
+    <link rel="preload" as="font" crossorigin type="font/woff" href="https://www.freshbooks.com/wp-content/themes/freshbooks/dist/fonts/FranklinGothicURW-Boo_37f3b9e3.woff" />
+    <link rel="preload" as="font" crossorigin type="font/woff" href="https://www.freshbooks.com/wp-content/themes/freshbooks/dist/fonts/FranklinGothicURW-Med_205bee21.woff" />
+    <link rel="preload" as="font" crossorigin type="font/woff" href="https://www.freshbooks.com/wp-content/themes/freshbooks/dist/fonts/FreshBooksScriptWeb-Regular_65ebe5c5.woff" />
+
+    <style>.async-hide { opacity: 0 !important};</style>
+        <link rel="prefetch" href="//cdn.optimizely.com/js/10802526514.js">
+        <link rel="preconnect" href="//logx.optimizely.com">
+        <title>Introduction - API | FreshBooks</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v9.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.freshbooks.com/api/start" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Introduction - API | FreshBooks" />
+<meta property="og:description" content="Quick Start The column on the right hand side has a curl call that demonstrates the required Headers and general format of requests to the FreshBooks API. Requests are authenticated using OAuth2 Bearer tokens which you receive in exchange for a code we issue after a logged-in user performs an authorization grant request. You can &hellip; Continued" />
+<meta property="og:url" content="https://www.freshbooks.com/api/start" />
+<meta property="og:site_name" content="FreshBooks" />
+<meta property="article:publisher" content="https://www.facebook.com/FreshBooks/?ref=br_rs" />
+<meta property="og:image" content="https://www.freshbooks.com/wp-content/uploads/2018/06/fb-logo-sharing-white.jpg" />
+<meta property="og:image:secure_url" content="https://www.freshbooks.com/wp-content/uploads/2018/06/fb-logo-sharing-white.jpg" />
+<meta property="og:image:width" content="301" />
+<meta property="og:image:height" content="301" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Quick Start The column on the right hand side has a curl call that demonstrates the required Headers and general format of requests to the FreshBooks API. Requests are authenticated using OAuth2 Bearer tokens which you receive in exchange for a code we issue after a logged-in user performs an authorization grant request. You can &hellip; Continued" />
+<meta name="twitter:title" content="Introduction - API | FreshBooks" />
+<meta name="twitter:site" content="@freshbooks" />
+<meta name="twitter:image" content="https://www.freshbooks.com/wp-content/uploads/2018/06/fb-logo-sharing-white.jpg" />
+<meta name="twitter:creator" content="@freshbooks" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='stylesheet' id='api-css'  href="api_edd231fb.css"  type='text/css' media='all' />
+<script type='text/javascript' src="10802526514.js-ver=4.9.10.js"  async='async'></script>
+<link rel='https://api.w.org/' href='https://www.freshbooks.com/wp-json/' />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.freshbooks.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="alternate" type="application/json+oembed" href="https://www.freshbooks.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.freshbooks.com%2Fapi%2Fstart" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.freshbooks.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.freshbooks.com%2Fapi%2Fstart&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="https://www.freshbooks.com/wp-content/uploads/2018/02/favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.freshbooks.com/wp-content/uploads/2018/02/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.freshbooks.com/wp-content/uploads/2018/02/favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.freshbooks.com/wp-content/uploads/2018/02/favicon.png" />
+  
+   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm-5.js'/*tpa=https://www.freshbooks.com/api/gtm.js*/});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MCH68J');</script>
+
+<!-- Schema Markup -->
+
+<!-- Load page-specific scripts-->
+   </head>
+    <body class="api-template-default single single-api postid-11734 start app-data index-data singular-data single-data single-api-data single-api-start-data">
+         <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="ns.html-id=GTM-MCH68J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+         <div class="smartbanner hide display-control">
+    <div class="smartbanner-container">
+        <a href="javascript:;" class="smartbanner-close">&times;</a>
+                    <span class="smartbanner-icon">
+                <img src="new_freshbooks.png"  alt="Freshbooks App Logo" />
+            </span>
+                <div class="smartbanner-info">
+                            <div class="smartbanner-title">FreshBooks</div>
+                
+                            <div>Official App</div>
+              
+                            <span>Free - Google Play</span>
+              
+        </div>
+                    <a href ="javascript:return false;"  class="smartbanner-button">
+                <span class="smartbanner-button-text">Get it</span>
+            </a>
+            </div>
+</div>
+                    <script type="text/javascript">
+
+    function hideShow(id) {
+        if (!jQuery('#' + id).hasClass('expired')) {
+            if (id) {
+                var cookie = readCookie(id + '-dismissed');
+                if (!cookie) {
+                    jQuery('#' + id).show();
+                    jQuery('#' + id).find('.banner-close').on('click', function() {
+                        createCookie(id + "-dismissed", "true", 365);
+                        jQuery('#' + id).hide();
+                    });
+                }
+            }
+        }
+    }
+
+    window.addEventListener('load', function() {
+
+        var banners = document.querySelectorAll('.banner');
+
+        // Show banners that are not expired, or previously closed by the user
+        Array.prototype.slice.call(banners).forEach(function(banner) {
+            var id = banner.id;
+            if (jQuery('#' + id).hasClass('show-delay')) {
+                var delayLength = jQuery('#' + id).attr('delay-length');
+                setTimeout(
+                    function() {
+                        return hideShow(id);
+                    }
+                , delayLength);
+            } else {
+                hideShow(id);
+            }
+        });
+
+    });
+</script>
+        <header>
+                                            <div class="nav-wrapper">
+    <div class="container">
+        <a href="index.htm"  class="nav-logo">
+                                        <img src="default-logo_f53b6346.svg"  alt="FreshBooks Cloud Accounting">
+                    </a>
+                    
+            <nav role="navigation" class="nav-item">
+                                                            <ul id="menu-visit-freshbooks" class="menu"><li id="menu-item-2238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2238"><a href="index.htm" >Visit FreshBooks.com</a></li>
+</ul>
+                        </nav>
+
+        	</div>
+                </header>
+        <div class="main-container">
+            <div class="overlay"></div>
+            <main class="main">
+                  <div class="sticky-bar-classic">
+	<p>If you’re using FreshBooks Classic, click <a class="sticky-bar-link" href ="javascript:return false;" >here.</a></p>
+
+
+            <img src=modal-fb-classic.png  src="" id="modalfbclassic" class="lazy hover-img" alt="Classic FreshBooks invoice" >
+			    </div>
+  <div class="container no-side-pad developers">
+    <div class="navigation">
+    <div class="desktop-only">
+                                                    <a href="javascript:;" data-target="_s_e_t_u_p_" class="accordion-toggle active"><span>Setup</span></a>
+                <div class="accordion-content" data-name="_s_e_t_u_p_">
+                                                                <a href="start.htm" >Introduction</a>
+                                            <a href ="javascript:return false;" >Postman Collection</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_s_c_e_n_a_r_i_o_s__a_n_d__c_o_n_c_e_p_t_s_" class="accordion-toggle active"><span>Scenarios and Concepts</span></a>
+                <div class="accordion-content" data-name="_s_c_e_n_a_r_i_o_s__a_n_d__c_o_n_c_e_p_t_s_">
+                                                                <a href ="javascript:return false;" >Make a Test Call</a>
+                                            <a href ="javascript:return false;" >Errors</a>
+                                            <a href ="javascript:return false;" >Search, Paging and Includes</a>
+                                            <a href ="javascript:return false;" >Active and Deleted</a>
+                                            <a href ="javascript:return false;" >Request Limits</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_a_u_t_h_o_r_i_z_a_t_i_o_n_" class="accordion-toggle active"><span>Authorization</span></a>
+                <div class="accordion-content" data-name="_a_u_t_h_o_r_i_z_a_t_i_o_n_">
+                                                                <a href ="javascript:return false;" >Authentication</a>
+                                            <a href ="javascript:return false;" >Business, Roles, and Identities</a>
+                                            <a href ="javascript:return false;" >Identity Model</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_c_l_i_e_n_t_s_" class="accordion-toggle active"><span>Clients</span></a>
+                <div class="accordion-content" data-name="_c_l_i_e_n_t_s_">
+                                                                <a href ="javascript:return false;" >Clients</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_i_n_v_o_i_c_e_s_" class="accordion-toggle active"><span>Invoices</span></a>
+                <div class="accordion-content" data-name="_i_n_v_o_i_c_e_s_">
+                                                                <a href ="javascript:return false;" >Invoices</a>
+                                            <a href ="javascript:return false;" >Invoice Profiles</a>
+                                            <a href ="javascript:return false;" >Other Income</a>
+                                            <a href ="javascript:return false;" >Payments</a>
+                                            <a href ="javascript:return false;" >Taxes</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_e_x_p_e_n_s_e_s_" class="accordion-toggle active"><span>Expenses</span></a>
+                <div class="accordion-content" data-name="_e_x_p_e_n_s_e_s_">
+                                                                <a href ="javascript:return false;" >Expenses</a>
+                                            <a href ="javascript:return false;" >Expense Categories</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_e_s_t_i_m_a_t_e_s_" class="accordion-toggle active"><span>Estimates</span></a>
+                <div class="accordion-content" data-name="_e_s_t_i_m_a_t_e_s_">
+                                                                <a href ="javascript:return false;" >Estimates</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_t_i_m_e__t_r_a_c_k_i_n_g_" class="accordion-toggle active"><span>Time Tracking</span></a>
+                <div class="accordion-content" data-name="_t_i_m_e__t_r_a_c_k_i_n_g_">
+                                                                <a href ="javascript:return false;" >Time Entries</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_p_r_o_j_e_c_t_s_" class="accordion-toggle active"><span>Projects</span></a>
+                <div class="accordion-content" data-name="_p_r_o_j_e_c_t_s_">
+                                                                <a href ="javascript:return false;" >Projects</a>
+                                            <a href ="javascript:return false;" >Tasks</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_m_y__t_e_a_m_" class="accordion-toggle active"><span>My Team</span></a>
+                <div class="accordion-content" data-name="_m_y__t_e_a_m_">
+                                                                <a href ="javascript:return false;" >Staff</a>
+                                            <a href ="javascript:return false;" >Users</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_r_e_p_o_r_t_s_" class="accordion-toggle active"><span>Reports</span></a>
+                <div class="accordion-content" data-name="_r_e_p_o_r_t_s_">
+                                                                <a href ="javascript:return false;" >Reports</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_a_c_c_o_u_n_t_i_n_g_" class="accordion-toggle active"><span>Accounting</span></a>
+                <div class="accordion-content" data-name="_a_c_c_o_u_n_t_i_n_g_">
+                                                                <a href ="javascript:return false;" >Journal Entries</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_u_p_l_o_a_d_e_r_" class="accordion-toggle active"><span>Uploader</span></a>
+                <div class="accordion-content" data-name="_u_p_l_o_a_d_e_r_">
+                                                                <a href ="javascript:return false;" >Uploader</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_w_e_b_h_o_o_k_s_" class="accordion-toggle active"><span>Webhooks</span></a>
+                <div class="accordion-content" data-name="_w_e_b_h_o_o_k_s_">
+                                                                <a href ="javascript:return false;" >Webhooks</a>
+                                    </div>
+                                            <a href="javascript:;" data-target="_s_e_t_t_i_n_g_s_" class="accordion-toggle active"><span>Settings</span></a>
+                <div class="accordion-content" data-name="_s_e_t_t_i_n_g_s_">
+                                                                <a href ="javascript:return false;" >Gateways</a>
+                                            <a href ="javascript:return false;" >Items</a>
+                                            <a href ="javascript:return false;" >Systems</a>
+                                    </div>
+                        </div>
+    <div class="mobile-only">
+        <div class="select-wrap">
+            <select class="select-nav">
+                                        <option value="journal-entries" >Journal Entries</option>
+                            <option value="uploader" >Uploader</option>
+                            <option value="postman-collection" >Postman Collection</option>
+                            <option value="start" selected>Introduction</option>
+                            <option value="authentication" >Authentication</option>
+                            <option value="test_call" >Make a Test Call</option>
+                            <option value="me_endpoint" >Business, Roles, and Identities</option>
+                            <option value="identity_model" >Identity Model</option>
+                            <option value="clients" >Clients</option>
+                            <option value="errors" >Errors</option>
+                            <option value="parameters" >Search, Paging and Includes</option>
+                            <option value="estimates" >Estimates</option>
+                            <option value="active_deleted" >Active and Deleted</option>
+                            <option value="expenses" >Expenses</option>
+                            <option value="limits" >Request Limits</option>
+                            <option value="expense_categories" >Expense Categories</option>
+                            <option value="gateways" >Gateways</option>
+                            <option value="webhooks" >Webhooks</option>
+                            <option value="invoices" >Invoices</option>
+                            <option value="invoice_profiles" >Invoice Profiles</option>
+                            <option value="items" >Items</option>
+                            <option value="other_income" >Other Income</option>
+                            <option value="payments" >Payments</option>
+                            <option value="project" >Projects</option>
+                            <option value="reports" >Reports</option>
+                            <option value="staff" >Staff</option>
+                            <option value="systems" >Systems</option>
+                            <option value="tasks" >Tasks</option>
+                            <option value="taxes" >Taxes</option>
+                            <option value="time_entries" >Time Entries</option>
+                            <option value="users" >Users</option>
+                        </select>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+      <div class="content-section">
+          <div class="copy-content">
+    <h1>FreshBooks API Documentation</h1>
+    <h2>Quick Start</h2>
+<p>The column on the right hand side has a curl call that demonstrates the required Headers and general format of requests to the FreshBooks API.</p>
+<p>Requests are authenticated using OAuth2 Bearer tokens which you receive in exchange for a code we issue after a logged-in user performs an authorization grant request. You can create an OAuth application and get a client id and secret at <a href ="javascript:return false;" >the developer page</a></p>
+<h2>Introduction</h2>
+<p>The FreshBooks API is an interface for accessing your FreshBooks data using JSON. The API makes it easy to create web and desktop applications that integrate with your account. Possible uses for it include automatically creating and sending invoices when users sign up on your website, pulling lists of client information, copying data to 3rd party services, and more.</p>
+<p>Check out our Scenarios and API Reference sections to see what to expect, and when you're ready, sign up for a FreshBooks account if you don't have one, and proceed to <a href ="javascript:return false;" >the developer page</a> to create an application and start development.</p>
+<h2>Required Headers</h2>
+<p>There are three required headers for most calls:</p>
+<ol>
+  <li><p>Content-Type: application/json</p></li>
+  <li><p>Api-Version: alpha</p></li>
+  <li><p>Authorization: Bearer <some token></p></li>
+</ol>
+<p>We need those three to understand, properly route, and authenticate your call. The black code pane on this page shows an example of a call which sends these headers correctly.</p>
+<h2>Next Steps</h2>
+<p>If you don't have one, create a FreshBooks Account. You can reach out to our support team to have your account put on our partner plan. Then visit <a href ="javascript:return false;" >the developer page</a> to create an application, and follow our <a href ="javascript:return false;" >OAuth documentation</a> to start issuing Bearer tokens and making authenticated calls.</p>
+</div>          <div class="dev-content-wrap toggle-active">
+            <div class="lang-toggle">
+                            <a href="#" data-target="curl" class="btn-api active">curl</a>
+                                        <a href="#" data-target="python" class="btn-api">Python</a>
+                                </div>
+                <div class="dev-content curl-content" style="display: block;">
+                                                                <p class="snippet-title">Sending Invoice</p>
+                                <div class="snippet">
+                    <pre><code>curl -X PUT 
+  -H "Authorization: Bearer &lt;bearer&gt;" 
+  -H "Api-Version: alpha" 
+  -H "Content-Type: application/json" 
+  -d '{
+        "invoice": {
+          "email_subject": "Some Subject",
+          "email_body": "sample email body",
+          "action_email": true
+        }
+      }' 
+"https://api.freshbooks.com/accounting/account/&lt;accountid&gt;/invoices/invoices/&lt;invoiceid&gt;"</code></pre>
+
+                </div>                                 
+                    </div>
+                <div class="dev-content python-content">
+                                                                <p class="snippet-title">Sending Invoice 142571</p>
+                                <div class="snippet">
+                    <pre><code>
+url = "https://api.freshbooks.com/accounting/account/&lt;accountid&gt;/invoices/invoices/&lt;invoiceid&gt;"
+headers = {'Authorization': 'Bearer &ltBearer Token&gt', 'Api-Version': 'alpha', 'Content-Type': 'application/json'}
+payload = {"invoice": {
+              "email_subject": "Some Subject", 
+              "email_body": "sample email body", 
+              "action_email": true 
+              } 
+          }
+res = requests.put(url, data=json.dumps(payload), headers=headers)
+</code></pre>
+
+                </div>				
+                    </div>
+        </div>      </div>
+    </div>
+  </div>
+            </main>
+        </div>
+                <footer>
+                    <div class="container no-side-pad rule-container">
+	<div class="rule"></div>
+</div>
+<div class="container no-side-pad-tablet">
+  <div class="footer-nav">
+    <div class="footer-col">
+      <a href="index.htm" >
+        <img src="default-logo_f53b6346.svg"  alt="FreshBooks Cloud Accounting" class="footer-logo">
+      </a>
+    </div>
+            <div class="footer-col">
+      <span class="footer-top-level">Company</span>
+      <div class="footer-sub-links">
+                  <ul id="menu-company" class=""><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a rel="nofollow" href="about.htm" >About Us</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a rel="nofollow" href="ourstory.htm" >Our Story</a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a rel="nofollow" href="careers.htm" >Careers</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a rel="nofollow" href="press.htm" >Press Center</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a rel="nofollow" href="contact.htm" >Contact</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a rel="nofollow" href ="javascript:return false;" >Blog</a></li>
+</ul>
+              </div>
+    </div>
+    
+            <div class="footer-col">
+      <span class="footer-top-level">Product</span>
+      <div class="footer-sub-links">
+                  <ul id="menu-product" class=""><li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="invoice.htm" >Invoice Software</a></li>
+<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="expenses-and-receipts-tracking.htm" >Expenses and Receipts</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="timesheets-and-time-tracking.htm" >Time Tracking</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="projects-and-collaboration.htm" >Managing Projects</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="estimating-software.htm" >Estimating Software</a></li>
+<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="accept-payments.htm" >Online Payments</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="features.htm" >All FreshBooks Features</a></li>
+<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="financial-reporting.htm" >Financial Reports</a></li>
+<li id="menu-item-3533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3533"><a href="mobile-apps.htm" >Mobile Apps</a></li>
+<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="pricing.htm" >Pricing</a></li>
+<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="select.htm" >High Volume Billing</a></li>
+</ul>
+              </div>
+    </div>
+    
+            <div class="footer-col">
+      <span class="footer-top-level">Who it’s for</span>
+      <div class="footer-sub-links">
+                  <ul id="menu-who-its-for" class=""><li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="self-employed.htm" >Self-Employed</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="agencies-firms-consultancies.htm" >Agencies, Firms &#038; Consultancies</a></li>
+<li id="menu-item-35699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35699"><a href="accountants.htm" >Accountants</a></li>
+</ul>
+              </div>
+                  <span class="footer-top-level second-row">Partners</span>
+      <div class="footer-sub-links">
+                  <ul id="menu-partners" class=""><li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="integrations.htm" >Integrations</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="education.htm" >Education</a></li>
+<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="affiliate-program.htm" >Affiliate Program</a></li>
+<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="reseller-program.htm" >Reseller Program</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-117"><a href="start.htm" >Developers</a></li>
+</ul>
+              </div>
+          </div>
+            <div class="footer-col">
+      <span class="footer-top-level">Helpful Links</span>
+      <div class="footer-sub-links">
+                  <ul id="menu-helpful-links" class=""><li id="menu-item-139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139"><a href ="javascript:return false;" >Login</a></li>
+<li id="menu-item-140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140"><a href ="javascript:return false;" >Support</a></li>
+<li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="sitemap.htm" >Sitemap</a></li>
+<li id="menu-item-5535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5535"><a href="quickbooks-online-alternative.htm" >Quickbooks Alternative</a></li>
+<li id="menu-item-4642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4642"><a href="accounting-software.htm" >Accounting Software</a></li>
+<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="webinars.htm" >Support Webinars</a></li>
+<li id="menu-item-32275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32275"><a href="invoice-templates.htm" >Invoice Template</a></li>
+</ul>
+              </div>
+    </div>
+
+        <div class="footer-col">
+      <span class="footer-top-level">Policies</span>
+      <div class="footer-sub-links">
+                  <ul id="menu-policies" class=""><li id="menu-item-12353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12353"><a href="security-safeguards.htm" >Security Safeguards</a></li>
+<li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="terms-of-service.htm" >Terms of Service</a></li>
+<li id="menu-item-12354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12354"><a href="privacy.htm" >Privacy Policy</a></li>
+<li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="accessibility.htm" >Accessibility</a></li>
+</ul>
+              </div>
+    </div>
+  </div>
+</div>
+        
+                    <div class="container no-side-pad rule-container">
+	<div class="rule"></div>
+</div>
+            <div class="container">
+    <div class="footer-social">
+        <div class="mobile-apps-footer">
+            <div class="mobile-icons-footer">
+                <a href ="javascript:return false;"  class="" target="_blank" rel="noopener">
+					<img src="download-app-store.svg"  alt="App Store Icon">
+			</a>
+
+	<a href ="javascript:return false;"  class="" target="_blank" rel="noopener">
+					<img src="download-google-play.svg"  alt="Google Play">
+			</a>
+            </div>
+        </div>
+                    <div class="social-copyright">
+                <div class="social-icons">
+                                                                    <a href ="javascript:return false;"  class="social-icon" target="_blank" rel="nofollow noopener" title="Twitter">
+                            <img src="icon-twitter.svg"  alt="">
+                        </a>
+                                                                    <a href ="javascript:return false;"  class="social-icon" target="_blank" rel="nofollow noopener" title="Facebook">
+                            <img src="icon-fb.svg"  alt="">
+                        </a>
+                                                                    <a href ="javascript:return false;"  class="social-icon" target="_blank" rel="nofollow noopener" title="YouTube">
+                            <img src="icon-yt.svg"  alt="">
+                        </a>
+                                                                    <a href ="javascript:return false;"  class="social-icon" target="_blank" rel="nofollow noopener" title="Instagram">
+                            <img src="icon-ig.svg"  alt="">
+                        </a>
+                                    </div>
+                        <div class="footer-copy copyright desktop">
+                    <span>
+                                                                                                                © 2000-2019 FreshBooks | Call Toll Free: 1.866.303.6061
+                                                                        </span>
+                </div>
+                    </div>
+                <img src="default-logo_f53b6346.svg"  alt="FreshBooks Cloud Accounting" class="footer-logo">
+    </div>
+
+    </div>
+            </footer>
+        <script type='text/javascript' src="jquery.js" ></script>
+<script type='text/javascript' src="api_7705bcf7.js" ></script>
+<script type='text/javascript' src="wp-embed.min.js-ver=4.9.10.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+.customer-service-container{background-color:#eee}
+.customer-service-container .profileblock>div:first-child{margin:1em 0 0 0}
+.customer-service-container .profileblock .btn{min-width:130px}
+.customer-service-container .tile{margin:0 0 5px 0;padding:8px;border-bottom:1px solid #e5e5e5;background-color:#fff}
+.customer-service-container .tile-content{background-color:#fff;padding:20px 20px 15px 20px;height:180px}
